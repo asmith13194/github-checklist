@@ -30,20 +30,20 @@
 }
 
 .back{
-  transform: rotateX(-180deg);
+  transform: rotateY(-180deg);
   background: lightblue;
   backface-visibility: hidden;
-  transform-style: preserve-3d;
 }
 
-h1{
-  position: absolute;
+h1, h2{
+  position: relative;
   top: 50%;
-  left: 50%;
+  left: 20%;
 }
 
 
 .wrapper{
+  transform-style: preserve-3d;
   animation: spin 5000ms linear infinite;
 }
 
