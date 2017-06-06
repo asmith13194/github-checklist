@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
   box-sizing: border-box;
   margin: 0;
@@ -54,4 +55,8 @@ h1{
   100%{
     transform: rotateY(360deg);
   }
+=======
+h1{
+  background-color: green;
+>>>>>>> db0365782b73820f40e3d5ed534832b096cebdda
 }
